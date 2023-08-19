@@ -34,7 +34,7 @@
   https://drive.google.com/file/d/1iGob3qsUHyWoXk4e14M1TSzi0FJmUbZ8/view
 
   ![Screenshot1](./images/Screenshot_README_QuestionsInTerminal.png)
-  ![Screenshot2](./images/Screenshot_README_QuestionsInTerminal.png)
+  ![Screenshot2](./images/Screenshot_README_Created.png)
 
   ## Contribution:
   
