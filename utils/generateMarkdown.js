@@ -65,7 +65,7 @@ function generateMarkdown(data) {
 
   -[Features](#features)
 
-  ## Descrition:
+  ## Description:
   ${data.description}
 
   ## Installation:

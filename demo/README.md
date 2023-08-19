@@ -1,8 +1,8 @@
 
-  # dgts
-  ## License: ![Static Badge](https://img.shields.io/badge/No_license-blue)
+  # Project Title
+  ## License: ![Static Badge](https://img.shields.io/badge/MIT_License-blue)
 
-  
+  https://opensource.org/license/mit/
   
   ## Table of Contents
 
@@ -16,17 +16,17 @@
 
   -[Features](#features)
 
-  ## Descrition:
-  dghs
+  ## Description:
+  Brief description.
 
   ## Installation:
-  hgsds
+  Step 1. Step 2. 
 
   ## Usage:
-  sgdgs
+  Instructions to run the application.
 
   ## Contribution:
-  hihih
+  Contributors
 
   ## Features:
-   fxgs
+  Special features.
