@@ -1,19 +1,6 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {
 
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-
-"Apache License 2.0",
-            "GNU General Public License v3.0",
-            "MIT License",
-            "BSD 2-Clause 'Simplified' License",
-            "BSD 3-Clause 'New' or 'Revised'",
-            "Boost Software License 1.0",
-            "No license"
+// Returns the license link for each license option
+// If there is no license, it returns an empty string
 
 function renderLicenseLink(license) {
   var link;
@@ -22,21 +9,26 @@ function renderLicenseLink(license) {
     case "Apache License 2.0":
       link = "## License Info: https://opensource.org/licenses/Apache-2.0"
       return link;
-      // code block
       break;
     case "GNU General Public License v3.0":
-      // code block
+      link = "https://www.gnu.org/licenses/gpl-3.0.en.html"
+      return link;
       break;
     case "MIT License":
+      link = "https://opensource.org/license/mit/"
+      return link;
       break;
       case "BSD 2-Clause 'Simplified' License":
-        // code block
+        link = "https://opensource.org/license/bsd-2-clause/"
+      return link;
         break;
         case "BSD 3-Clause 'New' or 'Revised'":
-          // code block
+          link = "https://opensource.org/license/bsd-3-clause/"
+      return link;
           break;
         case "Boost Software License 1.0":
-            // code block
+          link = "https://www.boost.org/users/license.html"
+          return link;
             break;
         case "No license":
           return "";
@@ -46,14 +38,14 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Returns the license section and returns a license badge of README
+// If there is no license, it returns an empty string
 function renderLicenseSection(license) {
   var licenseString = license[0].replace(/ /g, "_");
   return `![Static Badge](https://img.shields.io/badge/${licenseString}-blue)`
 }
 
-// TODO: Create a function to generate markdown for README
+// Generates markdown for README
 function generateMarkdown(data) {
   return `
   # ${data.title}
